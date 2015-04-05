@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8E3AB1943C4022F70300930 /* libPods-PlayRealm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF610B20042BE895A85D79C8 /* libPods-PlayRealm.a */; };
+		B1B3BF251AC7CF25007549FF /* SearchOptionMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3BF241AC7CF25007549FF /* SearchOptionMapViewController.m */; };
+		B1B3BF271AC7CFDD007549FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B3BF261AC7CFDD007549FF /* MapKit.framework */; };
+		B1EC8AF31AC7D47B001568B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC8AF21AC7D47B001568B5 /* CoreLocation.framework */; };
+		CB562FD91AB93C8800D9C68B /* PlaceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB562FD81AB93C8800D9C68B /* PlaceListViewController.m */; };
+		CB562FDC1AB93D1F00D9C68B /* SearchOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB562FDB1AB93D1F00D9C68B /* SearchOptionViewController.m */; };
+		CB562FDF1AB983AD00D9C68B /* PlaceServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = CB562FDE1AB983AD00D9C68B /* PlaceServiceProvider.m */; };
+		CB562FE41AB9912600D9C68B /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = CB562FE31AB9912600D9C68B /* Place.m */; };
+		CB5EA5421AB9394A00518C41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5EA5411AB9394A00518C41 /* main.m */; };
+		CB5EA5451AB9394A00518C41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5EA5441AB9394A00518C41 /* AppDelegate.m */; };
+		CB5EA54B1AB9394A00518C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5EA5491AB9394A00518C41 /* Main.storyboard */; };
+		CB5EA54D1AB9394A00518C41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5EA54C1AB9394A00518C41 /* Images.xcassets */; };
+		CB5EA5501AB9394A00518C41 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB5EA54E1AB9394A00518C41 /* LaunchScreen.xib */; };
+		CB5EA55C1AB9394A00518C41 /* PlayRealmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5EA55B1AB9394A00518C41 /* PlayRealmTests.m */; };
+		CBF5BC8E1ABAB1D900A96303 /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF5BC8D1ABAB1D900A96303 /* Geometry.m */; };
+		CBF5BC911ABAB1F900A96303 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF5BC901ABAB1F900A96303 /* Location.m */; };
+		CBF5BC941ABAB50300A96303 /* PlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF5BC931ABAB50300A96303 /* PlaceDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB5EA5561AB9394A00518C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5EA5341AB9394A00518C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5EA53B1AB9394A00518C41;
+			remoteInfo = PlayRealm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1644B4BD68A5A807C27B404 /* Pods-PlayRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayRealm/Pods-PlayRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		B1B3BF231AC7CF25007549FF /* SearchOptionMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchOptionMapViewController.h; sourceTree = "<group>"; };
+		B1B3BF241AC7CF25007549FF /* SearchOptionMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchOptionMapViewController.m; sourceTree = "<group>"; };
+		B1B3BF261AC7CFDD007549FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B1EC8AF21AC7D47B001568B5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CB562FD71AB93C8800D9C68B /* PlaceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceListViewController.h; sourceTree = "<group>"; };
+		CB562FD81AB93C8800D9C68B /* PlaceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceListViewController.m; sourceTree = "<group>"; };
+		CB562FDA1AB93D1F00D9C68B /* SearchOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchOptionViewController.h; sourceTree = "<group>"; };
+		CB562FDB1AB93D1F00D9C68B /* SearchOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchOptionViewController.m; sourceTree = "<group>"; };
+		CB562FDD1AB983AD00D9C68B /* PlaceServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceServiceProvider.h; sourceTree = "<group>"; };
+		CB562FDE1AB983AD00D9C68B /* PlaceServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceServiceProvider.m; sourceTree = "<group>"; };
+		CB562FE21AB9912600D9C68B /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		CB562FE31AB9912600D9C68B /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		CB5EA53C1AB9394A00518C41 /* PlayRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5EA5401AB9394A00518C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5EA5411AB9394A00518C41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB5EA5431AB9394A00518C41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB5EA5441AB9394A00518C41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB5EA54A1AB9394A00518C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB5EA54C1AB9394A00518C41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB5EA54F1AB9394A00518C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB5EA5551AB9394A00518C41 /* PlayRealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayRealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5EA55A1AB9394A00518C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5EA55B1AB9394A00518C41 /* PlayRealmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayRealmTests.m; sourceTree = "<group>"; };
+		CBF5BC8C1ABAB1D900A96303 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		CBF5BC8D1ABAB1D900A96303 /* Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Geometry.m; sourceTree = "<group>"; };
+		CBF5BC8F1ABAB1F900A96303 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		CBF5BC901ABAB1F900A96303 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		CBF5BC921ABAB50300A96303 /* PlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailViewController.h; sourceTree = "<group>"; };
+		CBF5BC931ABAB50300A96303 /* PlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailViewController.m; sourceTree = "<group>"; };
+		D4ECB09F9D7B973C3906568F /* Pods-PlayRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayRealm/Pods-PlayRealm.release.xcconfig"; sourceTree = "<group>"; };
+		EF610B20042BE895A85D79C8 /* libPods-PlayRealm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlayRealm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5EA5391AB9394A00518C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1EC8AF31AC7D47B001568B5 /* CoreLocation.framework in Frameworks */,
+				B1B3BF271AC7CFDD007549FF /* MapKit.framework in Frameworks */,
+				A8E3AB1943C4022F70300930 /* libPods-PlayRealm.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5EA5521AB9394A00518C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03244A552754A3CF8539950B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1EC8AF21AC7D47B001568B5 /* CoreLocation.framework */,
+				B1B3BF261AC7CFDD007549FF /* MapKit.framework */,
+				EF610B20042BE895A85D79C8 /* libPods-PlayRealm.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FF9E81EA7A3FC7394887F11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1644B4BD68A5A807C27B404 /* Pods-PlayRealm.debug.xcconfig */,
+				D4ECB09F9D7B973C3906568F /* Pods-PlayRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB562FE01AB990F800D9C68B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB562FD71AB93C8800D9C68B /* PlaceListViewController.h */,
+				CB562FD81AB93C8800D9C68B /* PlaceListViewController.m */,
+				CB562FDA1AB93D1F00D9C68B /* SearchOptionViewController.h */,
+				CB562FDB1AB93D1F00D9C68B /* SearchOptionViewController.m */,
+				CBF5BC921ABAB50300A96303 /* PlaceDetailViewController.h */,
+				CBF5BC931ABAB50300A96303 /* PlaceDetailViewController.m */,
+				B1B3BF231AC7CF25007549FF /* SearchOptionMapViewController.h */,
+				B1B3BF241AC7CF25007549FF /* SearchOptionMapViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CB562FE11AB9910300D9C68B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB562FE21AB9912600D9C68B /* Place.h */,
+				CB562FE31AB9912600D9C68B /* Place.m */,
+				CBF5BC8C1ABAB1D900A96303 /* Geometry.h */,
+				CBF5BC8D1ABAB1D900A96303 /* Geometry.m */,
+				CBF5BC8F1ABAB1F900A96303 /* Location.h */,
+				CBF5BC901ABAB1F900A96303 /* Location.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CB5EA5331AB9394A00518C41 = {
+			isa = PBXGroup;
+			children = (
+				CB5EA53E1AB9394A00518C41 /* PlayRealm */,
+				CB5EA5581AB9394A00518C41 /* PlayRealmTests */,
+				CB5EA53D1AB9394A00518C41 /* Products */,
+				3FF9E81EA7A3FC7394887F11 /* Pods */,
+				03244A552754A3CF8539950B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5EA53D1AB9394A00518C41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5EA53C1AB9394A00518C41 /* PlayRealm.app */,
+				CB5EA5551AB9394A00518C41 /* PlayRealmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5EA53E1AB9394A00518C41 /* PlayRealm */ = {
+			isa = PBXGroup;
+			children = (
+				CB562FE01AB990F800D9C68B /* ViewController */,
+				CB562FE11AB9910300D9C68B /* Model */,
+				CB5EA5431AB9394A00518C41 /* AppDelegate.h */,
+				CB5EA5441AB9394A00518C41 /* AppDelegate.m */,
+				CB5EA5491AB9394A00518C41 /* Main.storyboard */,
+				CB5EA54C1AB9394A00518C41 /* Images.xcassets */,
+				CB5EA54E1AB9394A00518C41 /* LaunchScreen.xib */,
+				CB5EA53F1AB9394A00518C41 /* Supporting Files */,
+				CB562FDD1AB983AD00D9C68B /* PlaceServiceProvider.h */,
+				CB562FDE1AB983AD00D9C68B /* PlaceServiceProvider.m */,
+			);
+			path = PlayRealm;
+			sourceTree = "<group>";
+		};
+		CB5EA53F1AB9394A00518C41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB5EA5401AB9394A00518C41 /* Info.plist */,
+				CB5EA5411AB9394A00518C41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB5EA5581AB9394A00518C41 /* PlayRealmTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5EA55B1AB9394A00518C41 /* PlayRealmTests.m */,
+				CB5EA5591AB9394A00518C41 /* Supporting Files */,
+			);
+			path = PlayRealmTests;
+			sourceTree = "<group>";
+		};
+		CB5EA5591AB9394A00518C41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB5EA55A1AB9394A00518C41 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB5EA53B1AB9394A00518C41 /* PlayRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5EA55F1AB9394A00518C41 /* Build configuration list for PBXNativeTarget "PlayRealm" */;
+			buildPhases = (
+				05BDFDF3F74A84AD53F8267E /* Check Pods Manifest.lock */,
+				CB5EA5381AB9394A00518C41 /* Sources */,
+				CB5EA5391AB9394A00518C41 /* Frameworks */,
+				CB5EA53A1AB9394A00518C41 /* Resources */,
+				E050871A4E071A8996FF67D7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayRealm;
+			productName = PlayRealm;
+			productReference = CB5EA53C1AB9394A00518C41 /* PlayRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB5EA5541AB9394A00518C41 /* PlayRealmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5EA5621AB9394A00518C41 /* Build configuration list for PBXNativeTarget "PlayRealmTests" */;
+			buildPhases = (
+				CB5EA5511AB9394A00518C41 /* Sources */,
+				CB5EA5521AB9394A00518C41 /* Frameworks */,
+				CB5EA5531AB9394A00518C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5EA5571AB9394A00518C41 /* PBXTargetDependency */,
+			);
+			name = PlayRealmTests;
+			productName = PlayRealmTests;
+			productReference = CB5EA5551AB9394A00518C41 /* PlayRealmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5EA5341AB9394A00518C41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "*";
+				TargetAttributes = {
+					CB5EA53B1AB9394A00518C41 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CB5EA5541AB9394A00518C41 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CB5EA53B1AB9394A00518C41;
+					};
+				};
+			};
+			buildConfigurationList = CB5EA5371AB9394A00518C41 /* Build configuration list for PBXProject "PlayRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB5EA5331AB9394A00518C41;
+			productRefGroup = CB5EA53D1AB9394A00518C41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5EA53B1AB9394A00518C41 /* PlayRealm */,
+				CB5EA5541AB9394A00518C41 /* PlayRealmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5EA53A1AB9394A00518C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5EA54B1AB9394A00518C41 /* Main.storyboard in Resources */,
+				CB5EA5501AB9394A00518C41 /* LaunchScreen.xib in Resources */,
+				CB5EA54D1AB9394A00518C41 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5EA5531AB9394A00518C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05BDFDF3F74A84AD53F8267E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E050871A4E071A8996FF67D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayRealm/Pods-PlayRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5EA5381AB9394A00518C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF5BC8E1ABAB1D900A96303 /* Geometry.m in Sources */,
+				CB5EA5451AB9394A00518C41 /* AppDelegate.m in Sources */,
+				CB562FDC1AB93D1F00D9C68B /* SearchOptionViewController.m in Sources */,
+				CB5EA5421AB9394A00518C41 /* main.m in Sources */,
+				B1B3BF251AC7CF25007549FF /* SearchOptionMapViewController.m in Sources */,
+				CB562FE41AB9912600D9C68B /* Place.m in Sources */,
+				CB562FDF1AB983AD00D9C68B /* PlaceServiceProvider.m in Sources */,
+				CBF5BC941ABAB50300A96303 /* PlaceDetailViewController.m in Sources */,
+				CBF5BC911ABAB1F900A96303 /* Location.m in Sources */,
+				CB562FD91AB93C8800D9C68B /* PlaceListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5EA5511AB9394A00518C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5EA55C1AB9394A00518C41 /* PlayRealmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB5EA5571AB9394A00518C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5EA53B1AB9394A00518C41 /* PlayRealm */;
+			targetProxy = CB5EA5561AB9394A00518C41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB5EA5491AB9394A00518C41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5EA54A1AB9394A00518C41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB5EA54E1AB9394A00518C41 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5EA54F1AB9394A00518C41 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB5EA55D1AB9394A00518C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB5EA55E1AB9394A00518C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB5EA5601AB9394A00518C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1644B4BD68A5A807C27B404 /* Pods-PlayRealm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB5EA5611AB9394A00518C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4ECB09F9D7B973C3906568F /* Pods-PlayRealm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB5EA5631AB9394A00518C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayRealm.app/PlayRealm";
+			};
+			name = Debug;
+		};
+		CB5EA5641AB9394A00518C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayRealm.app/PlayRealm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5EA5371AB9394A00518C41 /* Build configuration list for PBXProject "PlayRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5EA55D1AB9394A00518C41 /* Debug */,
+				CB5EA55E1AB9394A00518C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5EA55F1AB9394A00518C41 /* Build configuration list for PBXNativeTarget "PlayRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5EA5601AB9394A00518C41 /* Debug */,
+				CB5EA5611AB9394A00518C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5EA5621AB9394A00518C41 /* Build configuration list for PBXNativeTarget "PlayRealmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5EA5631AB9394A00518C41 /* Debug */,
+				CB5EA5641AB9394A00518C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB5EA5341AB9394A00518C41 /* Project object */;
+}
